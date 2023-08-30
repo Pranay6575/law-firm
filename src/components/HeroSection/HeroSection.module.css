@@ -10,6 +10,7 @@
 .SectionWrapper{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .HeadingText {
@@ -24,6 +25,11 @@
   font-style: normal;
   font-weight: 700;
   line-height: 147.523%; /* 97.365px */
+  padding-left: 158px;
+}
+
+.ProfileImg {
+  padding-right: 153px;
 }
 
 .TypoText1 {
