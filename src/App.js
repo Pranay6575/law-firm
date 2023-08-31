@@ -6,6 +6,8 @@ import ChooseSection from "./components/ChooseSection/ChooseSection";
 import PracticeSection from "./components/PracticeSection/PracticeSection";
 import ClientSection from "./components/ClientSection/ClientSection";
 import Team from "./components/Team/Team";
+import Faq from "./components/Faq/Faq";
+import Subscribe from "./components/Subscribe/Subscribe";
 function App() {
   return (
     <>
@@ -16,6 +18,8 @@ function App() {
       <PracticeSection />
       <ClientSection />
       <Team />
+      <Faq />
+      <Subscribe />
       </div>
     </>
   );
