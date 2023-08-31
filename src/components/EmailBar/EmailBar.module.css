@@ -3,27 +3,25 @@
   height: 74px;
   flex-shrink: 0;
   border-radius: 43px;
-  opacity: 0.1;
-  background: var(--pure-white, #fff);
+  background-color: #1d1d1d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.EmailDiv {
-  color: var(--pure-white, #fff);
+.Emailbar {
+  width: 244px;
+  height: 26px;
+  color: #fff;
+  text-align: center;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 162.523%; /* 26.004px */
-  padding-left: 62px;
-  padding-top: 18px;
+  background-color: #1d1d1d;
   border: none;
 }
-
-/* .Emailicon {
-    width: 18px;
-  height: 16px; 
-  padding: 29px 0 29px 29px;
-} */
 
 .pill {
   width: 137px;
